@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\data\\booklistdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:data\\booklistdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -13,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|c:\\users\\thebi\\desktop\\mission11_kennedy\\backend\\bookproject.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A092D3F1-B7E0-4231-A8CD-096E1B825457}|BookProject.API.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -50,36 +54,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-18T01:19:37.754Z",
+              "Title": "BookListData.cs",
+              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Data\\BookListData.cs",
+              "RelativeDocumentMoniker": "Data\\BookListData.cs",
+              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Data\\BookListData.cs",
+              "RelativeToolTip": "Data\\BookListData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T23:13:03.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "package-lock.json",
-              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\package-lock.json",
-              "RelativeDocumentMoniker": "package-lock.json",
-              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\package-lock.json",
-              "RelativeToolTip": "package-lock.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-17T22:48:32.812Z"
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T19:37:29.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:10:09.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -91,15 +109,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T20:10:09.486Z"
+              "DocumentIndex": 7,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T22:48:32.812Z"
             },
             {
               "$type": "Document",
@@ -115,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Data\\Book.cs",
               "RelativeDocumentMoniker": "Data\\Book.cs",
@@ -127,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BookProject.API.csproj",
               "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\BookProject.API.csproj",
               "RelativeDocumentMoniker": "BookProject.API.csproj",
@@ -139,20 +157,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T19:37:29.628Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-18T01:19:37.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
