@@ -1,15 +1,24 @@
 import { useEffect, useState } from 'react';
-import { Book } from './types/Book';
-function ProjectList() {
+import { Book } from '../types/Book';
+import { useCart } from '../context/CartContext';
+import { Link, useNavigate } from 'react-router-dom';
+
+function ProjectList({ selectedCategories }: { selectedCategories: string[] }) {
   const [books, setBooks] = useState<Book[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [pageSize, setPageSize] = useState<number>(5);
-  const [pageNum, setPageNum] = useState<number>(1);
   const [totalItems, setTotalItems] = useState<number>(0);
   const [totalPages, setTotalPages] = useState<number>(0);
   const [sortDirection, setSortDirection] = useState<'asc' | 'desc'>('asc');
   const [isSorted, setIsSorted] = useState<boolean>(false);
+  
+  const { addToCart, currentPage, setCurrentPage, cartItems } = useCart();
+  const navigate = useNavigate();
+  
+  const isInCart = (bookId: number): boolean => {
+    return cartItems.some(item => item.book.bookID === bookId);
+  };
 
   const sortBooksByTitle = (
     books: Book[],
@@ -31,8 +40,16 @@ function ProjectList() {
     setBooks(sortBooksByTitle(books, newSortDirection));
   };
 
+  const handleAddToCart = (book: Book) => {
+    addToCart(book);
+    navigate('/cart');
+  };
+
   useEffect(() => {
     const fetchBooks = async () => {
+      const categoryParams = selectedCategories
+        .map((cat) => `bookTypes=${encodeURIComponent(cat)}`)
+        .join('&');
       try {
         setIsLoading(true);
 
@@ -40,7 +57,7 @@ function ProjectList() {
           ? `&sortByTitle=true&sortDirection=${sortDirection}`
           : '';
         const response = await fetch(
-          `https://localhost:5000/api/Book?pageHowMany=${pageSize}&pageNum=${pageNum}${sortParam}`
+          `https://localhost:5000/api/Book/AllProjects?pageHowMany=${pageSize}&pageNum=${currentPage}${sortParam}${selectedCategories.length ? `&${categoryParams}` : ''}`
         );
 
         if (!response.ok) {
@@ -64,14 +81,10 @@ function ProjectList() {
     };
 
     fetchBooks();
-  }, [pageSize, pageNum, sortDirection, isSorted]);
+  }, [pageSize, currentPage, sortDirection, isSorted, selectedCategories]);
 
   return (
     <>
-      <div>
-        <h2>Book List</h2>
-      </div>
-      <br />
       {isLoading && <p>Loading books...</p>}
 
       {error && (
@@ -83,10 +96,20 @@ function ProjectList() {
       )}
 
       {!isLoading && !error && books.length === 0 && <p>No books found.</p>}
-
+      <button onClick={toggleSort} className="btn btn-outline-primary">
+        Sort by Title {sortDirection === 'asc' ? '↑' : '↓'}
+      </button>
+      <br/>
+      <br/>
       {books.map((b) => (
         <div key={b.bookID} id="bookCard" className="card">
-          <h3 className="card-title">{b.title}</h3>
+          <div className="d-flex justify-content-between align-items-start">
+            <h3 className="card-title">{b.title}</h3>
+            {/*  This has a badge using bootstrap that shows if an item is already in your cart at least once */}
+            {isInCart(b.bookID) && (
+              <span className="badge bg-success ms-2">In Cart</span>
+            )}
+          </div>
           <div className="card-body">
             <ul className="list-unstyled">
               <li>
@@ -108,29 +131,30 @@ function ProjectList() {
                 <strong>Page Count:</strong> {b.pageCount}
               </li>
               <li>
-                <strong>Price:</strong> ${b.price}
+                <strong>Price:</strong> ${b.price.toFixed(2)}
               </li>
             </ul>
+            <button className="btn btn-primary" onClick={() => handleAddToCart(b)}>Add to Cart</button>
           </div>
         </div>
       ))}
-      <button disabled={pageNum === 1} onClick={() => setPageNum(pageNum - 1)}>
+      <button disabled={currentPage === 1} onClick={() => setCurrentPage(currentPage - 1)}>
         Previous
       </button>
 
       {[...Array(totalPages)].map((_, index) => (
         <button
           key={index + 1}
-          onClick={() => setPageNum(index + 1)}
-          disabled={pageNum === index + 1}
+          onClick={() => setCurrentPage(index + 1)}
+          disabled={currentPage === index + 1}
         >
           {index + 1}
         </button>
       ))}
 
       <button
-        disabled={pageNum === totalPages}
-        onClick={() => setPageNum(pageNum + 1)}
+        disabled={currentPage === totalPages}
+        onClick={() => setCurrentPage(currentPage + 1)}
       >
         Next
       </button>
@@ -142,7 +166,7 @@ function ProjectList() {
           value={pageSize}
           onChange={(p) => {
             setPageSize(Number(p.target.value));
-            setPageNum(1);
+            setCurrentPage(1);
           }}
         >
           <option value="5"> 5 </option>
@@ -150,9 +174,7 @@ function ProjectList() {
           <option value="20"> 20 </option>
         </select>
       </label>
-      <button onClick={toggleSort} className="btn btn-outline-primary">
-        Sort by Title {sortDirection === 'asc' ? '↑' : '↓'}
-      </button>
+
     </>
   );
 }

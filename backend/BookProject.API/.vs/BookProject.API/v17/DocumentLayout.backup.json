@@ -54,21 +54,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookListData.cs",
-              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Data\\BookListData.cs",
-              "RelativeDocumentMoniker": "Data\\BookListData.cs",
-              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Data\\BookListData.cs",
-              "RelativeToolTip": "Data\\BookListData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T23:13:03.316Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -79,8 +66,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAIwB0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T19:37:29.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T19:37:29.628Z"
             },
             {
               "$type": "Document",
@@ -90,10 +76,22 @@
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T20:10:09.486Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookListData.cs",
+              "DocumentMoniker": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Data\\BookListData.cs",
+              "RelativeDocumentMoniker": "Data\\BookListData.cs",
+              "ToolTip": "C:\\Users\\thebi\\Desktop\\Mission11_Kennedy\\backend\\BookProject.API\\Data\\BookListData.cs",
+              "RelativeToolTip": "Data\\BookListData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T23:13:03.316Z"
             },
             {
               "$type": "Document",

@@ -12,13 +12,17 @@ namespace BookProject.API.Controllers
         private BookDBContext _bookContext;
         public BookController(BookDBContext temp) => _bookContext = temp;
 
-
-        public IActionResult Get(int pageHowMany = 5, int pageNum = 1, bool sortByTitle = false, string sortDirection = "asc")
+        [HttpGet("AllProjects")]
+        public IActionResult Get(int pageHowMany = 5, int pageNum = 1, bool sortByTitle = true, string sortDirection = "asc", [FromQuery] List<string>? bookTypes = null)
         {
             
             var query = _bookContext.Books.AsQueryable();
             
-            
+            if (bookTypes !=null)
+            {
+                query = query.Where(b => bookTypes.Contains(b.Category));
+            }
+
             if (sortByTitle)
             {
                 if (sortDirection.ToLower() == "desc")
@@ -47,6 +51,16 @@ namespace BookProject.API.Controllers
             };
             
             return Ok(response);
+        }
+        [HttpGet("GetBookTypes")]
+        public IActionResult GetBookTypes ()
+        {
+            var bookTypes = _bookContext.Books
+                .Select(p => p.Category)
+                .Distinct()
+                .ToList();
+
+            return Ok(bookTypes);
         }
     }
 }

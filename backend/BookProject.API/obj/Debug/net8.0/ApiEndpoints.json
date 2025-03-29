@@ -2,8 +2,8 @@
   {
     "ContainingType": "BookProject.API.Controllers.BookController",
     "Method": "Get",
-    "RelativePath": "api/Book",
-    "HttpMethod": "",
+    "RelativePath": "api/Book/AllProjects",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -26,8 +26,23 @@
         "Name": "sortDirection",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "bookTypes",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookProject.API.Controllers.BookController",
+    "Method": "GetBookTypes",
+    "RelativePath": "api/Book/GetBookTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
